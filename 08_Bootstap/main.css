@@ -1,0 +1,20 @@
+.custom-link-color{
+    color: white !important;
+}
+
+.custom-carousel{
+    height: 500px;
+}
+
+.custom-car-img{
+    width: 500px !important;
+}
+
+.card-container{
+    border: solid 2px orangered;
+   
+}
+
+.container{
+    border: solid 2px orangered;
+}

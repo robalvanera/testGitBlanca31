@@ -1,0 +1,59 @@
+main{
+    background-color: #000000
+}
+/*---------------Estilos navbar-------*/
+.custom-link-nav-color{
+    color: #ffffff !important;
+}
+
+.logo-navbar{
+    width: 25px;
+}
+
+/* TERMINA NAVBAR   ––––––––––––––––––––––
+––––––––––––EMPIEZA CAROUSEL */
+
+.img-custom-car{
+    height: 91vh;
+    width: 100%
+}
+
+.img-custom-car{
+    height: 100vh;
+    margin-top: 56px;
+}
+
+.custom-card-img{
+    height: 450px;
+}
+
+/* Empiezan cards--------- */
+
+.custom-container{
+    /* border: solid 1px blue; */
+
+    background-color: #000000;
+}
+
+.card-body{
+    background-color: #000000;
+    /* border-top: solid 1px #ffffff; */
+
+}
+
+.card-body > h5 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-body > a {
+    border-radius: 0;
+    background-color: black;
+    border: solid 1px #ffffff;
+}
+
+.card-body > a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: solid 1px #000000;
+}

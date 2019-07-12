@@ -1,0 +1,70 @@
+body{
+    /* border: solid 1px green; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    background-image: url("https://i.stack.imgur.com/9WYxT.png");
+    background-size: cover;
+    background-position: center center;
+    justify-content: space-around;
+}
+
+img{
+    height: 180px;
+    width: 180px;
+}
+
+.player1-container{
+    width: 33%;
+    border: solid 1px red; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.player1-container > button{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.card-container{
+    width: 33%;
+    border: solid 1px yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player2-container{
+    width: 33%;
+    border: solid 1px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player2-container > button{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.desaparecer{
+    display: none;
+}
+
+
+
